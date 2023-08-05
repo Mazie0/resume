@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 0.5rem;
+}
+
+label {
+    display: block;
+    margin-top: 1rem;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 0.5rem;
+}
+
+button {
+    display: block;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+button#generatePDFButton {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+}
+
+button#generatePDFButton:hover {
+    background-color: #555;
+}
